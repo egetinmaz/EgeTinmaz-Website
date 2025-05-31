@@ -15,3 +15,10 @@ st.markdown("""
 - Description of the project.""")
 components.iframe("https://library-management-ege.streamlit.app?embed=true", height=450, width=800)
 st.link_button("GitHub", "https://github.com/egetinmaz/Library-Management/tree/main", use_container_width=True)
+
+# PDF-Text-To-Audio-Converter
+st.markdown("""
+## PDF-Text-To-Audio-Converter
+- Description of the project.""")
+components.iframe("https://pdf-text-to-audio-converter.streamlit.app?embed=true", height=450, width=800)
+st.link_button("GitHub", "https://github.com/egetinmaz/PDF-Text-To-Audio-Converter/tree/main", use_container_width=True)
