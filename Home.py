@@ -5,12 +5,10 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Home",initial_sidebar_state="collapsed") 
 margin_r,body,margin_l = st.columns([1, 2, 1])
 
-st.title("Home")
 st.sidebar.success("Select a page above.")
 
 # Home Page Header
-st.header("Home", divider="grey")
-st.subheader("A Little About Me:")
+st.header("A Little About Me:", divider="grey")
 
 # Intro and Image
 col1, col2, col3 = st.columns([1.3, 0.2, 1])
