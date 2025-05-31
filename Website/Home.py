@@ -1,34 +1,41 @@
 import streamlit as st
 
+st.set_page_config(page_title="Main Page", page_icon="🏠",initial_sidebar_state="collapsed") 
+margin_r,body,margin_l = st.columns([1, 2, 1])
+
 # Sidebar for navigation
 with st.sidebar:
-    st.success("Select a page above.")
+    st.success("Select a page to view")
 
-# Home Page Content
-st.header("Welcome to My Streamlit App", divider="rainbow")
-st.subheader("This is a simple example of a Streamlit application.")
+# Home Page Header
+st.header("Home", divider="rainbow")
+st.subheader("A Little About Me")
 
-col1, col2, col3 = st.columns([1.5, 0.3, 1.3])
+# Intro and Image
+col1, col2, col3 = st.columns([1.3, 0.2, 1])
 
 with col1:
-    st.markdown ("Name: Ege Tinmaz")
+    st.markdown("Name: Ege Tinmaz")
     st.markdown("Current Position: Technical Support Analyst")
     st.markdown("Company: Odoo")
     st.markdown("Location: San Mateo, California")
+    st.markdown("Education: University of San Francisco, B.A. in Psychology")
     st.markdown("Linkedin: www.linkedin.com/in/ege-tinmaz")
-    st.markdown("Github: www.github.com/egetinmaz")
+    st.markdown("Github: https://github.com/egetinmaz")
+    
     with open("src/Resume.pdf", "rb") as file:
         resume = file.read()
+
     st.download_button(
         label="Download Resume",
         data=resume,
-        file_name="Resume",
-        mime="application/pdf"
-    )
+        file_name="Resume.pdf",
+        mime="application/pdf")
 
 with col3:
-    st.image("https://via.placeholder.com/200", use_container_width=True)
+    st.image("src/portrait.jpg", width=360)
 
+# Home Page Content
 st.markdown("""
 ## Summary
 Highly organized and accomplished professional with strong collaboration, customer support, and technical background. 
