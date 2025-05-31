@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Contact Page")
+st.title("Contact")
 
 # Set page configuration
 st.set_page_config(page_title="Contact",initial_sidebar_state="collapsed") 
