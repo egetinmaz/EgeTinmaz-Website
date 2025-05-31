@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.title("Projects Page")
+st.title("Projects")
 
 # Set page configuration
 st.set_page_config(page_title="Projects",initial_sidebar_state="collapsed") 
