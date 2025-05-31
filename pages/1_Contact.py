@@ -5,8 +5,7 @@ st.set_page_config(page_title="Contact",initial_sidebar_state="collapsed")
 margin_r,body,margin_l = st.columns([1, 2, 1])
 
 #Header
-st.title("Contact")
-st.header("Contact Me:", divider="grey")
+st.title("Contact Me", divider="grey")
 
 # Contact Details
 st.markdown("""
