@@ -6,7 +6,7 @@ margin_r,body,margin_l = st.columns([1, 2, 1])
 
 #Header
 st.title("Contact")
-st.header("Contact", divider="grey")
+st.header("Contact Details", divider="grey")
 
 # Contact Details
 st.markdown("""
