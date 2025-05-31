@@ -1,6 +1,10 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+# Set page configuration
+st.set_page_config(page_title="Projects",initial_sidebar_state="collapsed") 
+margin_r,body,margin_l = st.columns([1, 2, 1])
+
 # Add header
 st.header("Projects:", divider="grey")
 

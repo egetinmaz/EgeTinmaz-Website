@@ -1,5 +1,9 @@
 import streamlit as st
 
+# Set page configuration
+st.set_page_config(page_title="Contact",initial_sidebar_state="collapsed") 
+margin_r,body,margin_l = st.columns([1, 2, 1])
+
 st.header("Contact Me:", divider="grey")
 
 st.markdown("""
