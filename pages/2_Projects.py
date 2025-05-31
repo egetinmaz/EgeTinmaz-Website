@@ -6,8 +6,7 @@ st.set_page_config(page_title="Projects",initial_sidebar_state="collapsed")
 margin_r,body,margin_l = st.columns([1, 2, 1])
 
 # Add header
-st.title("Projects")
-st.header("Projects:", divider="grey")
+st.title("Projects:", divider="grey")
 
 # Library Management System Project
 st.markdown("""
