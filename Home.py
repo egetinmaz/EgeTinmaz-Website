@@ -5,27 +5,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Home",initial_sidebar_state="collapsed") 
 margin_r,body,margin_l = st.columns([1, 2, 1])
 
-st.title("Home Page")
-# Sidebar for navigation
-# with st.sidebar:
-#     selected = option_menu(
-#         menu_title=None,
-#         options=["Home", "Projects", "Contact"],
-#         icons=["house", "book", "envelope"],
-#         default_index=0,
-#         orientation="vertical",
-#         styles={
-#             "container": {"padding": "0!important"},
-#             "icon": {"color": "white"},
-#             "nav-link": {"font-size": "16px", "text-align": "left", "margin": "0px"},
-#             "nav-link-selected": {"background-color": "#2C3E50"},
-#         }
-#     )
-
-# if selected == "Projects":
-#     st.switch_page("pages/Projects.py")
-# elif selected == "Contact":
-#     st.switch_page("pages/Contact.py")
+st.title("Home")
 
 # Home Page Header
 st.header("Home", divider="grey")
