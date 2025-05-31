@@ -8,6 +8,7 @@ margin_r,body,margin_l = st.columns([1, 2, 1])
 st.sidebar.success("Select a page above.")
 
 # Home Page Header
+st.title("Home")
 st.header("A Little About Me:", divider="grey")
 
 # Intro and Image
