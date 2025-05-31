@@ -14,10 +14,18 @@ with col1:
     st.markdown ("Name: Ege Tinmaz")
     st.markdown("Current Position: Technical Support Analyst")
     st.markdown("Company: Odoo")
-    st.markdown("Interest:")
-    st.markdown("Favorite Color: Yellow")
+    st.markdown("Location: San Mateo, California")
     st.markdown("Linkedin: www.linkedin.com/in/ege-tinmaz")
-    
+    st.markdown("Github: www.github.com/egetinmaz")
+    with open("src/Resume.pdf", "rb") as file:
+        resume = file.read()
+    st.download_button(
+        label="Download Resume",
+        data=resume,
+        file_name="Resume",
+        mime="application/pdf"
+    )
+
 with col3:
     st.image("https://via.placeholder.com/200", use_container_width=True)
 
