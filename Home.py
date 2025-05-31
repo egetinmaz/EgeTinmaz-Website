@@ -22,10 +22,10 @@ st.title("Home Page")
 #         }
 #     )
 
-if selected == "Projects":
-    st.switch_page("pages/Projects.py")
-elif selected == "Contact":
-    st.switch_page("pages/Contact.py")
+# if selected == "Projects":
+#     st.switch_page("pages/Projects.py")
+# elif selected == "Contact":
+#     st.switch_page("pages/Contact.py")
 
 # Home Page Header
 st.header("Home", divider="grey")
