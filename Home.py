@@ -22,9 +22,9 @@ with st.sidebar:
     )
 
 if selected == "Projects":
-    st.switch_page("Pages/Projects.py")
+    st.switch_page("pages/Projects.py")
 elif selected == "Contact":
-    st.switch_page("Pages/Contact.py")
+    st.switch_page("pages/Contact.py")
 
 # Home Page Header
 st.header("Home", divider="grey")
